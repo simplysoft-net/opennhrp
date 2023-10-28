@@ -73,6 +73,8 @@ CFLAGS		?= -g -O2 -I${INCLUDEDIR}
 CFLAGS_ALL	:= -Wall -Wstrict-prototypes -D_GNU_SOURCE -std=gnu99
 CFLAGS_ALL	+= $(CFLAGS)
 
+LIBDIR      += nhrp
+
 LDFLAGS		?= -g -L${LIBDIR}
 LDFLAGS_ALL	+= $(LDFLAGS)
 
